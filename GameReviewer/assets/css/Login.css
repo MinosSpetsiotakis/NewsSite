@@ -1,0 +1,30 @@
+﻿body{
+	background-color:grey;
+}
+a{
+	cursor:pointer;
+	color:aliceblue;
+}
+a:hover {
+	cursor: pointer;
+	color: aliceblue;
+}
+label{
+	color:white;
+}
+.main-content{
+	margin-top:10vh;
+}
+input{
+	background-color:grey;
+}
+#wrongCredentials{
+	display:none;
+	color:brown;
+	font-weight:900;
+	font-size:15px;
+}
+.btn-login{
+	background-color:black;
+	border-color:black;
+}

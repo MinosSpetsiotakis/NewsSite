@@ -1,0 +1,92 @@
+﻿@import url('assets/fonts/stylesheet.css');
+
+html{
+	overflow-x:hidden;
+}
+img {
+	max-width: 80%;
+	display: flex;
+	margin: auto;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+.nav-link {
+	display: block;
+	padding: .5rem 1rem;
+	color: white !important;
+}
+body {
+	}
+.right-login{
+	position:absolute;
+	right:100px !important;
+	color:white;
+	font-weight:600;
+	font-size:20px;
+	text-align:center;
+}
+.right-login a{
+	cursor:pointer;
+	color: red;
+	font-weight: 600;
+	font-size: 20px;
+	text-align: center;
+}
+	.right-login a:hover {
+		color: red !important;
+	}
+.right-login-img {
+	position: absolute;
+	right: 0px !important;
+}
+.article-cont {
+	padding-top: 40px;
+	padding-bottom: 250px;
+	background: rgb(120,120,120);
+	background-color: #dddddd78;
+}
+.banner-img {
+	position: fixed;
+	background-color: #1a1a1d !important;
+	padding-bottom: 200px;
+}
+.article-container{
+	padding-top:150px;
+}
+.navbar-logo{
+	max-width:250px !important;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.navbar {
+	background-color: #1a1a1d !important;
+}
+.footer {
+	background-color: #1a1a1d !important;
+}
+.article-title {
+	font-size: 80px;
+	font-family: 'Noto-alpha-med';
+	font-weight:600;
+}
+.article-content {
+	transition: opacity 300ms ease-in;
+	margin-top: 100px;
+	margin-left: 150px;
+	margin-right: 150px;
+	font-size: 20px;
+	line-height: 30px;
+}
+.line{
+	background-color:#950740;
+	width:20vw;
+	height:10px;
+}
+.article-sub-title {
+	margin-top:20px;
+	font-family: 'Noto-alpha-med';
+	font-size: 25px;
+}
+.article-main-image{
+	margin-top:50px;
+}

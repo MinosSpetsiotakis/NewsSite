@@ -1,0 +1,22 @@
+﻿.body {
+	margin-left:20vw;
+	margin-right:20vw;
+	text-align:center;
+}
+#content{
+	display:none!important;
+	max-height:400px;
+}
+#editor {
+	max-height: 400px;
+}
+	.btn-submit {
+	background-color: black;
+	width: 20vw;
+	margin: auto;
+	text-align: center;
+	margin-top: 50px;
+}
+.form-group{
+	margin:20px;
+}
