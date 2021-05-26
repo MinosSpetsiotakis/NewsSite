@@ -1,0 +1,115 @@
+﻿@import url('assets/fonts/stylesheet.css');
+
+html{
+	overflow-x:hidden;
+}
+a{
+	color:unset!important;
+
+}
+a:hover {
+	text-decoration:none;
+	color: unset !important;
+}
+body {
+	background-color: #1a1a1d !important;
+}
+
+.card {
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #1a1a1d;
+	background-clip: border-box;
+	border: 1px solid rgba(0,0,0,.125);
+	border-radius: .25rem;
+}
+.card-title{
+	font-size:25px;
+	color:white;
+}
+.card-text{
+	color:white;
+}
+.right-login{
+	position:absolute;
+	right:20px;
+	color:white;
+}
+.top-banner {
+	margin: 0 !important;
+	width: 100%;
+	max-width: 100%;
+	margin-top: 105px!important;
+}
+.article-cont {
+	padding-top: 40px !important;
+	padding-bottom: 40px !important;
+	background: rgb(120,120,120);
+	background-color: #1a1a1d !important;
+}
+.card-img-top {
+	width: 100%;
+	border-top-left-radius: calc(.25rem - 1px);
+	border-top-right-radius: calc(.25rem - 1px);
+	height: 200px;
+}
+right-login-img {
+	position: absolute;
+	right: 80px;
+}
+.article-cont {
+	padding-top: 40px;
+	padding-bottom: 250px;
+	background: rgb(120,120,120);
+	background-color: #dddddd78;
+}
+.banner-img {
+	position: fixed;
+	background-color: #1a1a1d !important;
+	padding-bottom: 200px;
+}
+.article-container{
+	padding-top:150px;
+}
+.navbar-logo{
+	max-width:250px !important;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.navbar {
+	background-color: #1a1a1d !important;
+}
+.footer {
+	background-color: #1a1a1d !important;
+}
+.article-title {
+	font-size: 80px;
+	font-family: 'Noto-alpha-med';
+	font-weight:600;
+}
+.article-content {
+	transition: opacity 300ms ease-in;
+	margin-top: 100px;
+	margin-left: 150px;
+	margin-right: 150px;
+	font-size: 20px;
+	line-height: 30px;
+}
+.line{
+	background-color:#950740;
+	width:20vw;
+	height:10px;
+}
+.article-sub-title {
+	margin-top:20px;
+	font-family: 'Noto-alpha-med';
+	font-size: 25px;
+}
+.article-main-image{
+	margin-top:50px;
+}
